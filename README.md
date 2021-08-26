@@ -8,7 +8,7 @@
   - File Manager        : dolphin; pcmanfm;
   - Media Player        : VLC for mp4; 
   - Office                : libreoffice-still Libre;
-  - Social Media        : telegram-desktop; whatsapp; discord-canary (alpha discord);
+  - Social Media        : telegram-desktop; whatsapp-nativefier; discord-canary (alpha discord);
   - Terminal            : Alacritty add link to alacritty configs;
   - Text Editor         : code / Visual Studio Code; vim;
   - Utility             : htop (terminal task manager); stacer (CLEAN YOUR CACHE YOU DIRTY ASS)
@@ -17,3 +17,7 @@
 [hikikomoriAlways@home ~] $ sudo pacman -S gimp lutris dolphin vlc libreoffice-still telegram-desktop 
 
 ### 2. Lorem ipsum
+the fox jumping idk stuff
+
+### 3, lorem ipsum lagi
+the fox is my friend etc. etc.
