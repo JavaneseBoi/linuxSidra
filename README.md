@@ -7,7 +7,7 @@ These packages is for Arch based distro, but you can try the command and remove 
   - Data Management     : 'geary' is an email management; 
   - Graphic             : 'gimp' is an Adobe Photoshop alternative;
   - GAME ON LINUX BABE  : 'steam'; 'wine'; 'lutris'; and browser, or emulators;
-  - File Manager        : 'dolphin'; 'pcmanfm';
+  - File Manager        : 'dolphin'; 'pcmanfm'; 'thunar';
   - Media Player        : 'vlc' for mp4; 
   - Office                : 'libreoffice-still';
   - Social Media        : 'telegram-desktop'; 'whatsapp-nativefier'; 'discord'; or 'discord-canary' (alpha discord) if you brave enough;
@@ -16,7 +16,7 @@ These packages is for Arch based distro, but you can try the command and remove 
   - Utility             : 'htop' (terminal task manager); 'stacer' (CLEAN YOUR CACHE YOU DIRTY ASS)
 
 #### Run this to install
-[hikikomoriAlways@home ~] $ sudo pacman -S firefox geary gimp steam pcmanfm vlc libreoffice-still telegram-desktop whatsapp-nativier discord alacritty code vim  
+[hikikomoriAlways@home ~] $ sudo pacman -S firefox geary gimp steam thunar vlc libreoffice-still telegram-desktop whatsapp-nativier discord alacritty code vim  
 
 ### 2. Fix the timedatectl
 
