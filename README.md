@@ -16,8 +16,10 @@
 #### Run this to install
 [hikikomoriAlways@home ~] $ sudo pacman -S gimp lutris dolphin vlc libreoffice-still telegram-desktop 
 
-### 2. Lorem ipsum
-the fox jumping idk stuff
+### 2. Fix the timedatectl
+
+#### Run this to fix
+[hikikomoriAlways@home ~] $ sudo timedatectl set-ntp true
 
 ### 3, lorem ipsum lagi
 the fox is my friend etc. etc.
