@@ -1,27 +1,58 @@
 # INSTALL LINUX STARTER PACK
+I prefer my Linux to be an Arch-based distro or Arch Linux itself so, if you use Ubuntu, you could search up other guidance rather than mine. But still, there are some universal stuff you could get if you do read the whole paragraph. Cheers.
 
-### 1. Must install software
-These are the packages I ocasionally use on Linux. For game that need DirectX, you need some little tweak by configuring wine or else.  
-These packages is for Arch based distro, but you can try the command and remove some packages that unavailable from the repository your distro is using.
-  - Browser             : 'firefox' firefox-config-link-here; or 'brave' if chrome is your waifu; or 'vivaldi';
-  - Data Management     : 'geary' is an email management; 
-  - Graphic             : 'gimp' is an Adobe Photoshop alternative;
-  - GAME ON LINUX BABE  : 'steam'; 'wine'; 'lutris'; and browser, or emulators;
-  - File Manager        : 'dolphin'; 'pcmanfm'; 'thunar';
-  - Media Player        : 'vlc' for mp4; 
-  - Office                : 'libreoffice-still';
-  - Social Media        : 'telegram-desktop'; 'whatsapp-nativefier'; 'discord'; or 'discord-canary' (alpha discord) if you brave enough;
-  - Terminal            : 'alacritty' alacritty-config-here;
-  - Text Editor         : 'code' is Visual Studio Code; 'vim';
-  - Utility             : 'htop' (terminal task manager); 'stacer' (CLEAN YOUR CACHE YOU DIRTY ASS)
+LANGUAGE
+[Indonesia](./README.id.md)
+English (./README.md)
 
-#### Run this to install
-[hikikomoriAlways@home ~] $ sudo pacman -S firefox geary gimp steam thunar vlc libreoffice-still telegram-desktop whatsapp-nativier discord alacritty code vim  
+# Quick Links to My Rices
+- [bspwm] (https://github.com/JavaneseBoi/404)
+- [qtile] (https://github.com/JavaneseBoi/404)
+- [KDE/Plasma] (https://github.com/JavaneseBoi/404)
+- [Dwm] (https://github.com/JavaneseBoi/404)
+- [Xmonad] (https://github.com/JavaneseBoi/404)
+- [linuxSidra] (https://github.com/JavaneseBoi/404)
+- [polybar] (https://github.com/JavaneseBoi/404)
+- [oh my zsh] (https://github.com/JavaneseBoi/404)
+- [alacritty] (https://github.com/JavaneseBoi/404)
+- [firefox] (https://github.com/JavaneseBoi/404)
 
-### 2. Fix the timedatectl
-
-#### Run this to fix
-[hikikomoriAlways@home ~] $ sudo timedatectl set-ntp true
-
-### 3, lorem ipsum lagi
-the fox is my friend etc. etc.
+# Table of Contents
+- [Overview](#overview)
+- [Arch installation](#arch-installation)
+- [Login and window manager](#login-and-window-manager)
+- [Basic system utilities](#basic-system-utilities)
+  - [Wallpaper](#wallpaper)
+  - [Fonts](#fonts)
+  - [Audio](#audio)
+  - [Monitors](#monitors)
+  - [Storage](#storage)
+  - [Network](#network)
+  - [Systray](#systray)
+  - [Notifications](#notifications)
+  - [Xprofile](#xprofile)
+- [Further configuration and tools](#further-configuration-and-tools)
+  - [AUR helper](#aur-helper)
+  - [Media Transfer Protocol](#media-transfer-protocol)
+  - [File Manager](#file-manager)
+  - [Trash](#trash)
+  - [GTK Theming](#gtk-theming)
+  - [Qt](#qt)
+  - [Lightdm theming](#lightdm-theming)
+  - [Multimedia](#multimedia)
+    - [Images](#images)
+    - [Video and audio](#video-and-audio)
+  - [Start Hacking](#start-hacking)
+- [Gallery](#gallery)
+  - [Qtile](#qtile)
+  - [Spectrwm](#spectrwm)
+  - [Openbox](#openbox)
+  - [Xmonad](#xmonad)
+  - [Dwm](#dwm)
+- [Keybindings](#keybindings)
+  - [Windows](#windows)
+  - [Apps](#apps)
+- [Software](#software)
+  - [Basic utilities](#basic-utilities)
+  - [Fonts, theming and GTK](#fonts-theming-and-gtk)
+  - [Apps](#apps-1)
