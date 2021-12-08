@@ -6,16 +6,16 @@ LANGUAGE
 English (./README.md)
 
 # Quick Links to My Rices
-- [bspwm] (https://github.com/JavaneseBoi/404)
-- [qtile] (https://github.com/JavaneseBoi/404)
-- [KDE/Plasma] (https://github.com/JavaneseBoi/404)
-- [Dwm] (https://github.com/JavaneseBoi/404)
-- [Xmonad] (https://github.com/JavaneseBoi/404)
-- [linuxSidra] (https://github.com/JavaneseBoi/404)
-- [polybar] (https://github.com/JavaneseBoi/404)
-- [oh my zsh] (https://github.com/JavaneseBoi/404)
-- [alacritty] (https://github.com/JavaneseBoi/404)
-- [firefox] (https://github.com/JavaneseBoi/404)
+- [bspwm](https://github.com/JavaneseBoi/404)
+- [qtile](https://github.com/JavaneseBoi/404)
+- [KDE/Plasma](https://github.com/JavaneseBoi/404)
+- [Dwm](https://github.com/JavaneseBoi/404)
+- [Xmonad](https://github.com/JavaneseBoi/404)
+- [linuxSidra](https://github.com/JavaneseBoi/404)
+- [polybar](https://github.com/JavaneseBoi/404)
+- [oh my zsh](https://github.com/JavaneseBoi/404)
+- [alacritty](https://github.com/JavaneseBoi/404)
+- [firefox](https://github.com/JavaneseBoi/404)
 
 # Table of Contents
 - [Overview](#overview)
