@@ -58,14 +58,14 @@ LANGUAGE:
 >  - [Apps](#apps-1)
 
 What-to-do-after-installing-Arch-Linux.sh is to update your lovely Arch
-`
+```
 sudo pacman -Syu
 sudo reboot
-`
+```
 
 
 What-to-do-after-installing-Arch-Linux-2.sh
-`
+```
 #!/bin/bash
 # set as root
 su
@@ -86,12 +86,12 @@ yay -S discord-ptb brave simple-mtpfs visual-studio-code-bin lightdm-webkit-them
 
 # set your time to match ntp. timedatectl set-ntp bool
 timedatectl set-ntp true
-`
+```
 
 
 
 Run these Manually
-`
+```
 # set firefox profile 
 firefox --ProfileManager
 
@@ -102,10 +102,10 @@ yay -S ttf-yosemite-san-francisco-font-git ttf-iosevka ttf-dejavu ttf-liberation
 # Icons
 
 # Change your Qt theme, #FYI, GTK themes ain't applied to Qt applications, mate.
-`
+```
 
 Config Manually
-`
+```
 # 1. Config lightdm
 /etc/lightdm/lightdm.conf
 [Seat:*]
@@ -136,4 +136,4 @@ cbatticon &
 # 4. Change your shell if you want, I use zsh. Aint't forget to download p10k and config it
 chsh /bin/zsh
 p10k configure
-`
+```
