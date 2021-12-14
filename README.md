@@ -70,8 +70,14 @@ What-to-do-after-installing-Arch-Linux-2.sh
 # set as root
 su
 
+# Your mirror RN is suck, change it. This will list 20 best mirror, if you greed enough, change it to 696969.
+sudo pacman -S python
+cd /etc/pacman.d/
+cp mirrorlist mirrorlist.bak
+rankmirrors -n 20 mirrorlist.bak > mirrorlist
+
 # install app you need 
-sudo pacman -S ntp firefox telegram-desktop git gimp libreoffice-still pcmanfm vlc libmtp lightdm-webkit2-greeter alacritty geeqie nitrogen pulseaudio pavucontrol arandr network-manager-applet udiskie ntfs-3g libnotify notification-daemon volumeicon cbatticon xorg-xinit rofi picom zsh
+pacman -S ntp firefox telegram-desktop git gimp libreoffice-still pcmanfm vlc libmtp lightdm-webkit2-greeter alacritty geeqie nitrogen pulseaudio pavucontrol arandr network-manager-applet udiskie ntfs-3g libnotify notification-daemon volumeicon cbatticon xorg-xinit rofi picom zsh
 
 # install AUR helper
 cd /opt/
@@ -92,7 +98,7 @@ timedatectl set-ntp true
 
 Run these Manually
 ```
-# set firefox profile 
+# set firefox profile, you dont have to.
 firefox --ProfileManager
 
 # Change your GTK theme
