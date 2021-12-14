@@ -71,7 +71,7 @@ What-to-do-after-installing-Arch-Linux-2.sh
 su
 
 # install app you need 
-pacman -S ntp firefox telegram-desktop git gimp libreoffice-still pcmanfm 7-zip vlc libmtp lightdm-webkit2-greeter alacritty geeqie nitrogen pulseaudio pavucontrol arandr network-manager-applet udiskie ntfs-3g libnotify notification-daemon volumeicon cbatticon xorg-xinit rofi picom zsh
+sudo pacman -S ntp firefox telegram-desktop git gimp libreoffice-still pcmanfm vlc libmtp lightdm-webkit2-greeter alacritty geeqie nitrogen pulseaudio pavucontrol arandr network-manager-applet udiskie ntfs-3g libnotify notification-daemon volumeicon cbatticon xorg-xinit rofi picom zsh
 
 # install AUR helper
 cd /opt/
@@ -82,7 +82,7 @@ makepkg -si
 cd
 
 # install app from AUR
-yay -S discord-ptb brave simple-mtpfs visual-studio-code-bin lightdm-webkit-theme-aether
+yay -S discord-ptb brave simple-mtpfs visual-studio-code-bin lightdm-webkit-theme-aether 7-zip
 
 # set your time to match ntp. timedatectl set-ntp bool
 timedatectl set-ntp true
