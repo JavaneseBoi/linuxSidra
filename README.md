@@ -88,7 +88,7 @@ makepkg -si
 cd
 
 # install app from AUR
-yay -S discord-ptb brave simple-mtpfs visual-studio-code-bin lightdm-webkit-theme-aether 7-zip
+yay -S discord-ptb brave simple-mtpfs visual-studio-code-bin lightdm-webkit-theme-aether 7-zip noto-fonts-cjk
 
 # set your time to match ntp. timedatectl set-ntp bool
 timedatectl set-ntp true
