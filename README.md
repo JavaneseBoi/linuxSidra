@@ -58,14 +58,14 @@ LANGUAGE:
 >  - [Apps](#apps-1)
 
 What-to-do-after-installing-Arch-Linux.sh is to update your lovely Arch
-```
+```sh
 sudo pacman -Syu
 sudo reboot
 ```
 
 
 What-to-do-after-installing-Arch-Linux-2.sh
-```
+```sh
 #!/bin/bash
 # set as root
 su
@@ -97,7 +97,7 @@ timedatectl set-ntp true
 
 
 Run these Manually
-```
+```sh
 # set firefox profile, you dont have to.
 firefox --ProfileManager
 
@@ -111,7 +111,7 @@ yay -S ttf-yosemite-san-francisco-font-git ttf-iosevka ttf-dejavu ttf-liberation
 ```
 
 Config Manually
-```
+```sh
 # 1. Config lightdm
 /etc/lightdm/lightdm.conf
 [Seat:*]
